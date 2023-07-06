@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    namespace 'com.blogger.waller'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.blogger.waller"
+        minSdk 19
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation files('libs/blogger-sdk-1.1.aar')
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.core:core:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation 'androidx.browser:browser:1.4.0'
+    implementation 'com.google.android.play:app-update:2.0.1'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+
+    // firebase
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-config'
+
+    // one signal
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.2'
+
+    implementation 'androidx.room:room-runtime:2.5.0'
+    annotationProcessor 'androidx.room:room-compiler:2.5.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation 'joda-time:joda-time:2.10.14'
+    implementation 'org.jsoup:jsoup:1.15.3'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.1.4'
+
+    // ad network
+    implementation 'com.github.dream-space:dreamspace-ads-sdk:1.1.0'
+}

@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Waller</string>
+    <string name="tagline">Blogger Wallpaper\nApp</string>
+
+    <string name="dialog_about_title">About</string>
+    <string name="develop_by">Develop by Dream Space</string>
+    <string name="about_text">
+        This app is a demo version from Android Template Dream Space.\n\nWaller is Android app template to displaying wallpapers data from Blogger.
+    </string>
+
+    <string name="category">Category</string>
+
+    <string name="menu_wallpapers">Wallpapers</string>
+    <string name="menu_category">Categories</string>
+    <string name="menu_favorite">Favorites</string>
+
+    <string name="please_fill">Please Fill Search Input</string>
+    <string name="search">Search&#8230;</string>
+
+    <string name="more_title_rate_app">Rate this</string>
+    <string name="more_title_more_app">More apps</string>
+    <string name="more_title_about">About</string>
+
+    <!--ActivitySplash string data -->
+    <string name="title_failed_connect">Failed</string>
+    <string name="message_failed_connect">Oops, cannot load data from server</string>
+    <string name="message_failed_config">Failed when load config</string>
+    <string name="message_failed_server">Failed when load data from server</string>
+
+    <!--ActivityFullscreenImage string data -->
+    <string name="image_of">%1$d / %2$d</string>
+
+    <!--ActivityNotification string data -->
+    <string name="title_activity_notification">Notification</string>
+    <string name="notification_channel_server">Default</string>
+    <string name="msg_notif_empty">Notification is empty</string>
+
+    <!--ActivityDialogNotification string data -->
+    <string name="title_activity_dialog_notification">Notification</string>
+    <string name="delete_successfully">Delete successfully</string>
+
+    <string name="activity_title_setting">Settings</string>
+    <string name="setting_title_theme">Dark mode</string>
+    <string name="setting_subtitle_theme">Better Eyesight and power saving</string>
+    <string name="setting_title_notif_setting">Notification Setting</string>
+    <string name="setting_title_cache">Clear Image Cache</string>
+    <string name="setting_subtitle_cache">Free up %s of space</string>
+    <string name="setting_subtitle_notif_setting">Manage push notification setting</string>
+    <string name="setting_title_notif">Notifications</string>
+    <string name="setting_subtitle_developer">Develop by Dream Space</string>
+    <string name="setting_title_privacy">Privacy Policy</string>
+    <string name="setting_title_publisher_info">Publisher info</string>
+    <string name="setting_title_rate_app">Rate this app</string>
+    <string name="setting_title_more_app">More apps</string>
+    <string name="setting_title_about">About app</string>
+    <string name="version">Version %1s</string>
+    <string name="failed_tap_retry">Failed, tap to retry</string>
+    <string name="dialog_confirm_title">Confirmation</string>
+    <string name="message_clear_image_cache">Are you sure want to clear image cache?</string>
+    <string name="message_after_clear_image_cache">Image cache successfully clear</string>
+
+    <string name="failed_create_share">Failed when create share data</string>
+    <string name="url_copied_clipboard">URL copied to clipboard</string>
+    <string name="app_version">Build Version</string>
+    <string name="version_unknown">Unknown</string>
+
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="remove_from_favorite">Remove from favorite</string>
+
+    <!--All string for ActivityWallpaperDetails.java -->
+    <string name="set_wallpaper">SET WALLPAPER</string>
+    <string name="text_rating">Ratings</string>
+    <string name="text_view">Views</string>
+    <string name="text_download">Downloads</string>
+    <string name="action_share">Share</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_save">Save</string>
+    <string name="please_give_rating">Please give rating</string>
+    <string name="submit_success">Submit success</string>
+    <string name="submit_failed">Submit failed</string>
+    <string name="set_success">Set wallpaper success</string>
+    <string name="set_failed">Set wallpaper failed</string>
+    <string name="already_download">Wallpaper already downloaded</string>
+    <string name="wallpaper_download">Wallpaper Download</string>
+    <string name="download_complete">Downloading complete</string>
+    <string name="download_failed">Downloading failed</string>
+    <string name="storage_permission_denied">Storage permission denied</string>
+    <string name="failed_prepare_share">Failed preparing share data</string>
+    <string name="details_category">Category</string>
+    <string name="details_tag">Tag</string>
+    <string name="details_source">Source</string>
+    <string name="title_dialog_rating">Rating</string>
+    <string name="title_dialog_set_wallpaper">Set Wallpaper</string>
+    <string name="set_home">Home Screen</string>
+    <string name="set_lock">Lock Screen</string>
+    <string name="set_both">Both (Home &amp; Lock)</string>
+
+
+    <string name="title_delete_confirm">Delete Confirmation</string>
+    <string name="content_delete_confirm">Are you sure want to delete all&#160;</string>
+    <string name="delete_success">Delete successfully</string>
+    <string name="press_again_exit_app">Press again to exit</string>
+    <string name="title_info">Info</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="empty_state_text">No item</string>
+    <string name="empty_state_no_data">There are no data\nto show</string>
+    <string name="failed_text">Something went wrong\ntap to retry</string>
+    <string name="failed_text_plain">Something went wrong</string>
+    <string name="failed_when_load">Failed when load data</string>
+    <string name="no_internet_text">No internet connection\ntap to retry</string>
+    <string name="no_internet_text_plain">No internet connection</string>
+    <string name="no_internet_connection">There is something problem with your network, please check your internet setting.</string>
+    <string name="unable_connect_server">Something went wrong, unable connect to server</string>
+    <string name="failed">Failed</string>
+    <string name="change_theme_title">Theme</string>
+    <string name="change_theme_confirmation">Changing the theme requires the app to be reloaded</string>
+
+    <string name="update_ready">Application update is ready!</string>
+    <string name="install">Install</string>
+
+    <string name="dialog_title_permission">Permission denied</string>
+    <string name="dialog_content_permission">
+        This feature required permission
+        \nGo to permission setting ?
+    </string>
+
+    <string name="NAVIGATE">NAVIGATE</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="CONTINUE">CONTINUE</string>
+    <string name="UPDATE">UPDATE</string>
+    <string name="RETRY">RETRY</string>
+    <string name="DELETE">DELETE</string>
+    <string name="OPEN">OPEN</string>
+</resources>

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Waller" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/textIconPrimary</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/accent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/systemBar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">false</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/custom_font</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+    </style>
+
+    <style name="Theme.Waller.Translucent" parent="Theme.Waller">
+        <item name="android:windowLightStatusBar" tools:targetApi="M">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="l">true</item>
+
+    </style>
+
+    <style name="Text.Caption.Medium" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/custom_font_medium</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+    </style>
+
+    <style name="Theme.Waller.Dialog" parent="Theme.MaterialComponents.Dialog.Bridge">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

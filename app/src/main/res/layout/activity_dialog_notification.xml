@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/spacing_20">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing_14"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:layout_marginBottom="@dimen/spacing_8"
+        app:cardBackgroundColor="@color/cardClearBg"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/spacing_56"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/spacing_4">
+
+                <View
+                    android:id="@+id/view_space"
+                    android:layout_width="@dimen/spacing_14"
+                    android:layout_height="0dp" />
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="@dimen/spacing_24"
+                    android:layout_height="@dimen/spacing_24"
+                    app:tint="@color/textIconSecondary"
+                    android:src="@drawable/logo" />
+
+                <View
+                    android:layout_width="@dimen/spacing_14"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_activity_dialog_notification"
+                    android:textColor="@color/textIconPrimary"
+                    android:textSize="@dimen/txt_mlarge"
+                    app:fontFamily="@font/custom_font_medium" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/img_close"
+                    android:layout_width="@dimen/spacing_48"
+                    android:layout_height="@dimen/spacing_48"
+                    android:background="@drawable/button_overlay"
+                    android:padding="@dimen/spacing_12"
+                    app:srcCompat="@drawable/ic_close"
+                    app:tint="@color/textIconSecondary" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/softBg" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lyt_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:cardBackgroundColor="@color/softBg"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="false"
+                    app:layout_constraintDimensionRatio="H,4:3"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter" />
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/spacing_18"
+                android:paddingTop="@dimen/spacing_18"
+                android:paddingBottom="@dimen/spacing_18">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="06 Aug 2016"
+                    android:textColor="@color/textIconSecondary"
+                    android:textSize="@dimen/txt_small" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_6"
+                    android:text="Notification Title will be here"
+                    android:textColor="@color/textIconPrimary"
+                    android:textSize="@dimen/txt_medium"
+                    app:fontFamily="@font/custom_font_medium" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Content will be here"
+                    android:textColor="@color/textIconSecondary"
+                    android:textSize="@dimen/txt_small" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_5" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/softBg" />
+
+            <LinearLayout
+                android:id="@+id/lyt_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|end|center_vertical"
+                android:minHeight="@dimen/spacing_56"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/spacing_8">
+
+                <TextView
+                    android:id="@+id/bt_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_36"
+                    android:background="@drawable/button_overlay"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/spacing_14"
+                    android:text="@string/DELETE"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/textIconSecondary" />
+
+                <TextView
+                    android:id="@+id/bt_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_36"
+                    android:layout_marginStart="@dimen/spacing_14"
+                    android:background="@drawable/button_overlay"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/spacing_14"
+                    android:text="@string/OPEN"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/textIconPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

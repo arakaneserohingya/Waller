@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757872200000",
+    "project_id": "wesata-aaaaa",
+    "storage_bucket": "wesata-aaaaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757872200000:android:b827f0e5155b13953787a0",
+        "android_client_info": {
+          "package_name": "com.blogger.waller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757872200000-8m76fq7jtqxxxxxxxx131hm3gqajmr50o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSU7g6MnREz_XXXXXXXXXXXXXXXX__tkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757872200000-8m76fq7jtqxxxxxxxx131hm3gqajmr50o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
